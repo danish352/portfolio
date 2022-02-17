@@ -429,10 +429,24 @@ footer hr
     height: 255px;
     width: 100%;
 }
+#view{
+  background-color: purple;
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+
+#view:hover{
+    background-color: white;
+    color: purple;
+}
 
 @media only screen and (max-width: 768px){
     .portfolio-thumb > #sm-img{
          height: 150px; 
+    }
+
+    #rottext{
+        font-size: 1.3em;
     }
 }
 
